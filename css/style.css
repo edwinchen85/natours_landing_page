@@ -56,6 +56,9 @@ body {
 .heading-primary {
   color: #fff;
   text-transform: uppercase;
+
+  /* Prevent shaky effect from animation at the end */
+  backface-visibility: hidden;
 }
 
 .heading-primary-main {
@@ -63,6 +66,8 @@ body {
   font-size: 60px;
   font-weight: 400;
   letter-spacing: 35px;
+
+  animation: 1s moveInLeft ease-out;
 }
 
 .heading-primary-sub {
@@ -71,4 +76,38 @@ body {
   font-weight: 700;
   letter-spacing: 17.2px;
   margin-left: -15px;
+
+  animation: 1s moveInRight ease-out;
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  80% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  80% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
