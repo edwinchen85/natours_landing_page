@@ -4,7 +4,7 @@
   "description": "Landing page for natours",
   "main": "index.js",
   "scripts": {
-    "compile:sass": "node-sass sass/main.scss css/style.css"
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
   },
   "repository": "git@github.com:edwinchen85/natours_landing_page.git",
   "author": "Edwin Chen <edwinchen85@gmail.com>",
