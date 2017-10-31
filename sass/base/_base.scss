@@ -22,3 +22,11 @@ html {
     font-size: 80%;      // 1rem = 12   12/16 = 75%
   }
 }
+
+body {
+  padding: 3rem;
+
+  @include respond(tab-port) {
+    padding: 0;
+  }
+}
