@@ -17,3 +17,5 @@ Advanced and cutting-edge CSS techologies used:
 - Using Flexbox to layout elements on website.
 
 [View demo site here.](http://edwinchen.co/natours_landing_page/)
+
+![Preview](screenshot.png)
