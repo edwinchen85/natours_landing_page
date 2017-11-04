@@ -15,3 +15,5 @@ Advanced and cutting-edge CSS techologies used:
 - SVG images: generate SVG sprite, changing SVG colors in CSS.
 - Incorporate background video effect.
 - Using Flexbox to layout elements on website.
+
+[View demo site here.](http://edwinchen.co/natours_landing_page/)
