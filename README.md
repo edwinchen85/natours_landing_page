@@ -16,6 +16,6 @@ Advanced and cutting-edge CSS techologies used:
 - Incorporate background video effect.
 - Using Flexbox to layout elements on website.
 
-[View demo site here.](http://edwinchen.co/natours_landing_page/)
+[View demo site here.](https://edwinchen85.github.io/natours_landing_page/)
 
 ![Preview](screenshot.png)
